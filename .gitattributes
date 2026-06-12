@@ -1,0 +1,5 @@
+# Count Solidity as the primary language; exclude JS scaffolding from stats
+*.sol linguist-language=Solidity
+test/** linguist-vendored
+scripts/** linguist-vendored
+hardhat.config.js linguist-vendored
